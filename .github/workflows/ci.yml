@@ -23,4 +23,4 @@ jobs:
 
       - name: Run tests
         run: |
-          echo "Tests OK"
+          pytest test_main.py -v
